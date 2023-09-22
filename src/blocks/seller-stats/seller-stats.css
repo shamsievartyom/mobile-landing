@@ -1,0 +1,8 @@
+.seller-stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 390px;
+    padding: 11px 16px 0px;
+    box-sizing: border-box;
+}

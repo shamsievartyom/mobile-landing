@@ -1,0 +1,8 @@
+.about-product{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px 0;
+    max-width: 390px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

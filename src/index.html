@@ -1,30 +1,98 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Mobile Shop</title>
 </head>
 
 <body class="page">
-  <header class="header">
-  </header>
   <main class="content">
-    <!-- <section class="profile">
-      <button class="profile__avatar-btn" type="button"><img class="profile__avatar-image"></button>
-      <div class="profile__info">
-        <div class="profile__info-row">
-          <h1 class="profile__name"></h1>
-          <button class="profile__edit-btn" type="button"></button>
-        </div>
-        <p class="profile__description"></p>
+    <section class="top-banner">
+      <img class="top-banner__flag" src="<%=require('./images/za.svg')%>" alt="za" />
+      <p class="top-banner__text">&nbspSPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA&nbsp</p>
+      <img class="top-banner__flag" src="<%=require('./images/za.svg')%>" alt="za" />
+    </section>
+    <section class="title">
+      <img class="title__logo" src="<%=require('./images/Cushion-logo.png')%>" alt="cushion logo" />
+      <p class="title__description">orthopedic slippers</p>
+    </section>
+    <section class="product-banner">
+      <img class="product-banner__image" src="<%=require('./images/Product-image.png')%>" alt="product-image">
+      <div class="timer">
+        <p class="timer__text">LIMITED OFFER</p>
+        <span class="timer__number"></span>
       </div>
-      <button class="profile__add-btn" type="button"></button>
-    </section> -->
+      <div class="price">
+        <span class="price__old"></span>
+        <span class="price__new"></span>
+      </div>
+    </section>
+    <section class="seller-stats">
+      <p class="seller-stats__numbers">Excellent 4.8/5</p>
+      <img class="seller-stats__trustpilot" src="<%=require('./images/Trustpilot.svg')%>" alt="Trustpilot" />
+      <p class="seller-stats__additional">best selling</p>
+    </section>
+    <section class="about-product">
+      <h1 class="about-product__title">Orthopedic Slippers</h1>
+      <div class="slider">
+        <div class="slider__container">
+          <img class="slider__image" src="<%=require('./images/slider/black.jpg')%>" alt="black slippers">
+          <img class="slider__image" src="<%=require('./images/slider/orange.jpg')%>" alt="orange slippers">
+          <img class="slider__image" src="<%=require('./images/slider/pink.jpg')%>" alt="pink slippers">
+          <img class="slider__image" src="<%=require('./images/slider/yellow.jpg')%>" alt="yellow slippers">
+        </div>
+      </div>
+      <ul class="slider-buttons">
+        <li class="slider-buttons__list-item"><button class="slider-buttons__button slider-buttons__button_number_0"
+            type="button"></button></li>
+        <li class="slider-buttons__list-item"><button class="slider-buttons__button slider-buttons__button_number_1"
+            type="button"></button></li>
+        <li class="slider-buttons__list-item"><button class="slider-buttons__button slider-buttons__button_number_2"
+            type="button"></button></li>
+        <li class="slider-buttons__list-item"><button class="slider-buttons__button slider-buttons__button_number_3"
+            type="button"></button></li>
+      </ul>
+      <p class="about-product__delivery">Fast Delivery:<span class="about-product__delivery_thin"> 2-4 days from SA
+          🇿🇦</span></p>
+      <p class="about-product__stock">In Stock:<span class="about-product__stock_thin"> Shipping from Johannesburg
+          🇿🇦</span></p>
+      <div class="stars">
+        <img src="<%=require('./images/Stars.svg')%>" alt="stars">
+        <span class="stars__number">(10)</span>
+      </div>
+    </section>
+    <section class="buy-section">
+      <form class="buy-section__form">
+        <div class="buy-section__buttons">
+          <div class="buy-section__selector-container">
+            <label class="buy-section__label" for="color">color</label>
+            <div class="buy-section__selector">
+              <select id="color" name="option">
+                <option value="Black">Black</option>
+                <option value="Orange">Orange</option>
+                <option value="Pink">Pink</option>
+                <option value="ellow">Yellow</option>
+              </select>
+            </div>
+          </div>
+          <div class="buy-section__selector-container">
+            <label class="buy-section__label" for="size">size</label>
+            <div class="buy-section__selector">
+              <select class="buy-section__selector" id="size" name="option">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="buy-section__submit" type="submit">BUY NOW</button>
+      </form>
+    </section>
   </main>
-  <footer class="footer">
-  </footer>
 </body>
 
 </html>

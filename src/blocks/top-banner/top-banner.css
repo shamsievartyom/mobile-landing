@@ -1,0 +1,10 @@
+.top-banner {
+    display: flex;
+    justify-content: center;
+    max-width: 390px;
+    font-size: 12.694px;
+    width: 100%;
+    padding: 10px 0;
+    background: #F19D2F;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.buy-section__submit {
+    padding: 11px 19px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    background: #37D997;
+    cursor: pointer;
+}

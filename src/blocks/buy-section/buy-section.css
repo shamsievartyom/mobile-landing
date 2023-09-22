@@ -1,0 +1,7 @@
+.buy-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px 41px;
+    max-width: 390px;
+    box-sizing: border-box;
+}

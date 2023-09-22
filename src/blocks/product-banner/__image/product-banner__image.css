@@ -1,0 +1,7 @@
+.product-banner__image{
+    max-width: 390px;
+    width: 100%;
+    height: 291px;
+    object-fit: cover;
+    transform: scale(1.2);
+}

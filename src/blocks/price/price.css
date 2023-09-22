@@ -1,0 +1,14 @@
+.price {
+    position: absolute;
+    content: "";
+    bottom: 14px;
+    right: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 7px;
+    gap: 8px;
+    border-radius: 5.677px;
+    background: #37D997;
+    color: white;
+}

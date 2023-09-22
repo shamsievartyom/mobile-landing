@@ -1,0 +1,40 @@
+.buy-section__selector {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.buy-section__selector select {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 21.69px;
+    font-weight: 700;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* text-align: center; */
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+.buy-section__selector::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 19px;
+    height: 9px;
+    background-image: url('./../../../images/arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
